@@ -1,5 +1,39 @@
 html{
-    background-color: E6E8E6;
+    background-color: #CED0CE;
     font-family: Comfortaa Verdana serif;
     font-size: 22px;
+    color: white;
+}
+
+header{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    
+}
+
+nav{
+    background-color: #191919;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h1, span{
+    padding: 20px;
+    color: #E6E8E6;
+}
+
+
+.menu{
+    justify-self: end;
+}
+
+a{
+    text-decoration: none;
+}
+h1:hover, span:hover{
+    color: #F15025;
 }
